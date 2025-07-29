@@ -12,6 +12,9 @@
 .relative {
   position: relative;
 }
+.sticky {
+  position: sticky;
+}
 .top-1\/2 {
   top: calc(1/2 * 100%);
 }
@@ -51,6 +54,9 @@
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
 .inline-block {
   display: inline-block;
 }
@@ -81,6 +87,9 @@
 .h-full {
   height: 100%;
 }
+.max-h-screen {
+  max-height: 100vh;
+}
 .w-\[15rem\] {
   width: 15rem;
 }
@@ -101,6 +110,9 @@
 }
 .w-\[1400px\] {
   width: 1400px;
+}
+.w-auto {
+  width: auto;
 }
 .w-full {
   width: 100%;
@@ -247,6 +259,9 @@
 }
 .bg-\[\#334155\] {
   background-color: #334155;
+}
+.fill-current {
+  fill: currentcolor;
 }
 .object-contain {
   object-fit: contain;
