@@ -407,10 +407,14 @@
 </section>
 
 
+
+<!-- Recommendation Section with Scroll Arrows -->
 <section id="recommendation" class="max-w-screen-lg mx-auto px-4 sm:px-6 py-10 sm:py-12">
   <div class="bg-gray-800 rounded-2xl px-4 sm:px-8 py-8 sm:py-10 shadow-md text-center">
+    <!-- Section Title -->
     <h2 class="text-2xl sm:text-3xl font-bold text-blue-400 mb-6 sm:mb-8">Reward & Recognition</h2>
 
+    <!-- Scrollable Card Container -->
     <div class="relative">
       <!-- Left Scroll Button -->
       <button onclick="scrollRecommendations(-1)" class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-blue-700 border-2 border-blue-500 text-white hover:bg-blue-500 hover:text-white rounded-full w-8 h-8 flex items-center justify-center shadow transition">
@@ -419,46 +423,43 @@
         </svg>
       </button>
 
-      <!-- Scrollable Container -->
-      <div id="recommendation-scroll"
-           class="overflow-x-auto scroll-smooth snap-x snap-mandatory px-2"
-           style="-webkit-overflow-scrolling: touch; transform: translateZ(0);">
-        <div class="flex gap-4 w-max">
+      <!-- Scroll Area -->
+      <div id="recommendation-scroll" class="overflow-x-auto scrollbar-hide">
+        <div class="flex gap-4 w-max px-2">
 
-          <!-- Card 1 -->
-          <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[280px] sm:w-[320px] min-w-[280px] flex-shrink-0 snap-start shadow-md text-center flex flex-col justify-between">
-            <img src="images/recommendation-ceo.png" alt="CEO Appreciation"
-                 class="h-40 sm:h-48 w-full object-contain rounded-md mb-4 block">
+          <!-- Card Template -->
+          <!-- <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[260px] sm:w-[320px] min-h-[460px] sm:min-h-[500px] flex-shrink-0 text-center shadow-md flex flex-col justify-between"> -->
+            <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[260px] sm:w-[320px] min-w-[260px] min-h-[460px] sm:min-h-[500px] flex-shrink-0 text-center shadow-md flex flex-col justify-between">
+            <img src="images/recommendation-ceo.png" alt="CEO Appreciation" class="h-40 sm:h-48 w-full object-contain rounded-md mb-4" style="max-width: 100%; display: block;">
             <div>
               <h3 class="text-blue-800 text-sm sm:text-base font-semibold">CEO, Vedantu</h3>
               <p class="text-xs sm:text-sm text-gray-600 mt-1">“You’re a Trailblazer, Nirmal.”</p>
             </div>
           </div>
 
-          <!-- Card 2 -->
-          <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[280px] sm:w-[320px] min-w-[280px] flex-shrink-0 snap-start shadow-md text-center flex flex-col justify-between">
-            <img src="images/award.png" alt="Toppr Award"
-                 class="h-40 sm:h-48 w-full object-contain rounded-md mb-4 block">
+          <!-- <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[260px] sm:w-[320px] min-h-[460px] sm:min-h-[500px] flex-shrink-0 text-center shadow-md flex flex-col justify-between"> -->
+          <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[260px] sm:w-[320px] min-w-[260px] min-h-[460px] sm:min-h-[500px] flex-shrink-0 text-center shadow-md flex flex-col justify-between">
+
+            <img src="images/award.png" alt="Toppr Award" class="h-40 sm:h-48 w-full object-contain rounded-md mb-4" style="max-width: 100%; display: block;">
             <div>
               <h3 class="text-blue-800 text-sm sm:text-base font-semibold">CEO, Toppr</h3>
               <p class="text-xs sm:text-sm text-gray-600 mt-1">"Emerging Leader - Award".</p>
             </div>
           </div>
 
-          <!-- Card 3 -->
-          <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[280px] sm:w-[320px] min-w-[280px] flex-shrink-0 snap-start shadow-md text-center flex flex-col justify-between">
-            <img src="images/leadership.png" alt="Leadership Recognition"
-                 class="h-40 sm:h-48 w-full object-contain rounded-md mb-4 block">
+          <!-- <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[260px] sm:w-[320px] min-h-[460px] sm:min-h-[500px] flex-shrink-0 text-center shadow-md flex flex-col justify-between"> -->
+          <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[260px] sm:w-[320px] min-w-[260px] min-h-[460px] sm:min-h-[500px] flex-shrink-0 text-center shadow-md flex flex-col justify-between">
+
+            <img src="images/leadership.png" alt="Leadership Recognition" class="h-40 sm:h-48 w-full object-cover rounded-md mb-4" style="max-width: 100%; display: block;">
             <div>
               <h3 class="text-blue-800 text-sm sm:text-base font-semibold">Leadership, enParadigm</h3>
               <p class="text-xs sm:text-sm text-gray-600 mt-1">"Skilled for team leadership & strategy".</p>
             </div>
           </div>
 
-          <!-- Card 4 -->
-          <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[280px] sm:w-[320px] min-w-[280px] flex-shrink-0 snap-start shadow-md text-center flex flex-col justify-between">
-            <img src="images/linkedin.png" alt="LinkedIn Recommendation"
-                 class="h-40 sm:h-48 w-full object-contain rounded-md mb-4 block">
+          <!-- <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[260px] sm:w-[320px] min-h-[460px] sm:min-h-[500px] flex-shrink-0 text-center shadow-md flex flex-col justify-between"> -->
+           <div class="bg-gray-100 rounded-xl p-4 sm:p-5 w-[260px] sm:w-[320px] min-w-[260px] min-h-[460px] sm:min-h-[500px] flex-shrink-0 text-center shadow-md flex flex-col justify-between">
+            <img src="images/linkedin.png" alt="LinkedIn Recommendation" class="h-40 sm:h-48 w-full object-contain rounded-md mb-4" style="max-width: 100%; display: block;">
             <div>
               <h3 class="text-blue-800 text-sm sm:text-base font-semibold">LinkedIn Reco</h3>
               <p class="text-xs sm:text-sm text-gray-600 mt-1">“Empathetic and solution-driven.”</p>
@@ -481,9 +482,8 @@
 <script>
   function scrollRecommendations(direction) {
     const container = document.getElementById('recommendation-scroll');
-    const card = container.querySelector('.snap-start');
-    const cardWidth = card.offsetWidth + 16; // include gap
-    container.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
+    const scrollAmount = 360;
+    container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
   }
 </script>
 
