@@ -472,12 +472,12 @@
     </div>
   </div>
 </section>
-
 <script>
   function scrollRecommendations(direction) {
     const container = document.getElementById('recommendation-scroll');
-    const scrollAmount = 360;
-    container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+    const card = container.querySelector('.snap-start');
+    const cardWidth = card.offsetWidth + 16; // 16px is the gap between cards
+    container.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
   }
 </script>
 
