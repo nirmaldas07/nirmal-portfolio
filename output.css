@@ -162,6 +162,9 @@
 .min-w-\[260px\] {
   min-width: 260px;
 }
+.min-w-\[280px\] {
+  min-width: 280px;
+}
 .min-w-fit {
   min-width: fit-content;
 }
